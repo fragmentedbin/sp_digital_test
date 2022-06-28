@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="row">
+            <h1>Pizza</h1>
+            <div class="col">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/american-favourite.jpg" alt="">
+                    </div>
+                    <div class="card-tittle">
+                        <p>American Favoforite</p>
+                    </div>
+                    <div class="card-sub">
+                        <p>$<span class="price">15</span></p>
+                    </div>
+                    <div class="card-radio">
+                        <input type="radio" class="pzt" name="pizza-type" id="pizzas" value="15">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/meat-lover.jpg" alt="">
+                    </div>
+                    <div class="card-tittle">
+                        <p>Meat Lover</p>
+                    </div>
+                    <div class="card-sub">
+                        <p>$<span class="price">20</span></p>
+                    </div>
+                    <div class="card-radio">
+                        <input type="radio" class="pzt" name="pizza-type" id="15s" value="20">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="img/tuna-melt.jpg" alt="">
+                    </div>
+                    <div class="card-tittle">
+                        <p>Tuna Melt</p>
+                    </div>
+                    <div class="card-sub">
+                        <p>$<span class="price">30</span></p>
+                    </div>
+                    <div class="card-radio">
+                        <input type="radio" class="pzt" name="pizza-type" id="pizzas" value="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1>size</h1>
+            <div class="col">
+                <div class="size">
+                    <div class="form-input">
+                        <input class="x" type="radio" name="size-input" id="small" value="1">
+                        <label for="small"> Small</label>
+                    </div>
+                    <div class="form-input">
+                        <input class="x" type="radio" name="size-input" id="medium" value="2" checked>
+                        <label for="medium"> Medium</label>
+                    </div>
+                    <div class="form-input">
+                        <input class="x" type="radio" name="size-input" id="large" value="2">
+                        <label for="large"> Large</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1>Toppings</h1>
+            <div class="col">
+                <div class="toppings">
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="avocado" value="1">
+                        <label for="avocado">Avocado</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="broccoli" value="1">
+                        <label for="broccoli">Broccoli</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="onions" value="1">
+                        <label for="onions">Onions</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="zucchini" value="1">
+                        <label for="zucchini">Zucchini</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="lobster" value="2">
+                        <label for="lobster">Lobster</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="oyster" value="2">
+                        <label for="oyster">Oyster</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="salmon" value="2">
+                        <label for="salmon">Salmon</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="tuna" value="2">
+                        <label for="tuna">Tuna</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="bacon" value="3">
+                        <label for="bacon">Bacon</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="duck" value="3">
+                        <label for="duck">Duck</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="ham" value="3">
+                        <label for="ham">Ham</label>
+                    </div>
+                    <div class="toppings-item">
+                        <input class="x" type="checkbox" name="topping" id="sausage" value="3">
+                        <label for="sausage">Sausage</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1>Price</h1>
+            <div class="col">
+                <div class="total-price">
+                    <h2>$<span id="price-sum">0</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
